@@ -42,7 +42,7 @@ function displayNumbers() {
 }
 
 function startTimer() {
-  let time = 30;
+  let time = 10;
   let minutes = 0;
   let seconds = time;
   timer.innerHTML = `0${minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
